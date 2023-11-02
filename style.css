@@ -1,0 +1,396 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #DCDCDC;
+}
+.container{
+    margin: 0 1rem;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+}
+.header{
+    height: auto;
+    background: url(15df.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    flex: 1;
+    color: #fff;
+    justify-content: space-between;
+    padding: 10px 45px;
+}
+.nav .logo{
+    font-size: 15px;
+    color: #fff;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    background: #9400D3;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.nav .logo:hover{
+    color: #fff;
+    background: #9370DB;
+    transition: 0.6s ease;
+    scale: 1.1;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul li a:hover{
+    color: #9370DB;
+    transition: 0.6s ease;
+}
+.nav .menu{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.title{
+    width: 60%;
+    height: auto;
+    padding: 10px 45px;
+    margin-bottom: 40px;
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.title p{
+    color: #A9A9A9;
+    text-align: justify;
+}
+.title button{
+    font-size: 15px;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #9400D3;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.title button:hover{
+    background: #9370DB;
+    scale: 1.1;
+    transition: 0.6s ease;
+}
+
+
+.text{
+    padding: 20px 90px;
+    text-align: center;
+    margin-top: 20px;
+    background: #fff;
+    padding: 10px 45px;
+}
+.text h2{
+    text-align: center;
+    font-weight: bold;
+}
+.text p{
+    color: #A9A9A9;
+    text-align: center;
+}
+
+.blocBox{
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    padding: 10px 45px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.blocBox .bloc{
+    flex: 1 1 30%;
+    height: auto;
+}
+.blocBox .bloc .logo{
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background: #9400D3;
+}
+.blocBox .bloc .logo:hover{
+    background: #9370DB;
+    transition: 0.6s ease;
+    scale: 1.1;
+}
+.blocBox .bloc h3{
+    text-align: center;
+    color: black;
+}
+.blocBox .bloc p{
+    text-align: center;
+    color: #A9A9A9;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.infoBox{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px 45px;
+}
+.infoBox .info{
+   display: flex;
+}
+.info .imageBox{
+    display: flex;
+    flex: 1.5;
+}
+.info .imageBox img {
+    width: 100%;
+    height: auto;
+}
+.info .text{
+    flex-direction: column;
+    flex: 1;
+    text-align: justify;
+}
+.info .text p{
+    text-align: justify;
+}
+.info .text h2{
+    font-size: 30px;
+    text-align: justify;
+}
+.info .text .puce{
+    padding-bottom: 5px;
+    color: #A9A9A9;
+}
+.info .text button{
+    font-size: 15px;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #9400D3;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.info .text button:hover{
+    background: #9370DB;
+    scale: 1.1;
+    transition: 0.6s ease;
+}
+
+.profile{
+    padding: 20px 45px;
+    background: #A9A9A9;
+}
+.profile .imageBox{
+    padding: 20px 45px;
+    display: flex;
+    flex-direction: column;
+}
+.profile .imageBox img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile .imageBox h4,p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer{
+    background: url(15df.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+
+footer .content{
+    display: flex;
+    padding: 20px 45px;
+}
+.content .contact{
+    color: #fff;
+    flex: 1;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+.content .contact h2{
+    padding-bottom: 40px;
+    font-size: 65px;
+    letter-spacing: 1px;
+}
+.content .contact p{
+    color: #D3D3D3;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.content .form{
+    flex:1;
+    margin-top: 10px;
+}
+.content .form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    outline: none;
+    height: 25px;
+    color: #fff;
+}
+.content .form input:hover{
+    border-bottom: 1px solid #9370DB;
+}
+.content .form input::placeholder{
+    padding: 0 0 20px 15px;
+    
+}
+.content .form textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    resize: none;
+    color: #fff;
+    width: 100%;
+}
+.content .form textarea::placeholder{
+    padding: 0 0 20px 15px;
+}
+.content .form textarea:hover{
+    border-bottom: 1px solid #9370DB;
+}
+.content .form button{
+    font-size: 15px;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background: #9400D3;
+    border-radius: 5px;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 80px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.content .form button:hover{
+    background: #9370DB;
+    scale: 1.1;
+    transition: 0.6s ease;
+}
+.content .form .message{
+    height: 200px;
+}
+
+.DropMenu{
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    right: -200px;
+    background-color: #000;
+    z-index: 10;
+    position: fixed;
+    transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+.DropMenu.open {
+    right: 0;
+}
+.DropMenu img{
+    height: 30px;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.DropMenu ul {
+    margin-top: 150px;
+    float: left;
+    padding-left: 20px;
+}
+.DropMenu ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+.DropMenu ul li:hover{
+    color: #9370DB;
+    transition: 0.6s ease;
+}
+
+@media (max-width:766px) {
+    footer, .title, .text, .blocBox, .bloc, .infoBox, .info, .profile,.content, .contact, .form{
+        flex-direction: column;
+    }
+    .container{
+        margin: 0 0.3rem;
+    }
+    .nav .menu{
+        display: block;
+    }
+    .nav ul{
+        display: none;
+    }
+    .title h2,p{
+        text-align: justify;
+    }
+    .header .title{
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .text p{
+        text-align: justify;
+    }
+}   
